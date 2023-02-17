@@ -13,7 +13,7 @@ class WhatsAppHomePage extends StatefulWidget {
 }
 
 class _WhatsAppHomePageState extends State<WhatsAppHomePage> {
-  DateTime Now = DateTime.now();
+  DateTime dateTime = DateTime.now();
   String formattedDate = DateFormat().add_jm().format(DateTime.now());
   List<People> peoplelist = [
     People(

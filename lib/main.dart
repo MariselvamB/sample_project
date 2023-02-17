@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:simpleapp/Screens/BookingRoom.dart';
 import 'package:simpleapp/Screens/FoodRecipe.dart';
 import 'package:simpleapp/Screens/LoginPage.dart';
+import 'package:simpleapp/Screens/RoseRoomPage.dart';
 import 'package:simpleapp/Screens/SimplePostImageupload.dart';
 import 'package:simpleapp/Screens/Simple_Get_Api.dart';
 import 'package:simpleapp/Screens/Tap_With_API.dart';
@@ -29,33 +30,36 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: ThemeData.light().copyWith(
-          scaffoldBackgroundColor: bodyBackground,
-        ),
-        debugShowCheckedModeBanner: false,
-        home: const BookingRoom()
-        // SimplePostImagePage()
-        // GoogleTranslatePage()
-        // FoodRecipePage()
-        // SimpleGetApiPage()
-        // TapWithApiPage()
-        // WhatsAppHomePage(),
-        // AnimationPage()
-        // ProductDescribtionPage()
-        // TaplistViewPage()
-        // filterPage(),
-        // ProductDescribtionPage()
-        // ProductListPage(),
-        // RegistrationPage(),
-        // LoginPage(),
-        // ScrollViewPage(),
-        // buyNowPage(),
-        // GridViewPage(),
-        // TextFormFieldpage(),
-        // HorizontalScrolPage(),
-        // VerticalScrolPage(),
-        // ListTilePage(),
-        );
+      theme: ThemeData.light().copyWith(
+        scaffoldBackgroundColor: bodyBackground,
+      ),
+      debugShowCheckedModeBanner: false,
+      home:
+          // MyHomePage()
+          // RoseRoomPage()
+
+          // SimplePostImagePage()
+          // GoogleTranslatePage()
+          // FoodRecipePage()
+          // SimpleGetApiPage()
+          // TapWithApiPage()
+          // WhatsAppHomePage(),
+          // AnimationPage()
+          // ProductDescribtionPage()
+          // TaplistViewPage()
+          // filterPage(),
+          // ProductDescribtionPage()
+          // ProductListPage(),
+          // RegistrationPage(),
+          // LoginPage(),
+          ScrollViewPage(),
+      // buyNowPage(),
+      // GridViewPage(),
+      // TextFormFieldpage(),
+      // HorizontalScrolPage(),
+      // VerticalScrolPage(),
+      // ListTilePage(),
+    );
   }
 
   buyNowPage() {}

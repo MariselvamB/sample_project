@@ -112,6 +112,7 @@ class NetworkService {
       SignIn signInresponse = SignIn.fromJson(jsonDecode(response.body));
       return signInresponse;
     } else {
+      print(response);
       throw Exception("Failed to Load Form Data");
     }
   }
